@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="box">
+        <h2>Conectar-se</h2>
+        <form name="frm_login" action="cadastro_login.php" method="POST">
+            <div class="inputBox">
+                    <input type="text" name="txt_login" required="">
+                    <label>Usuário</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="txt_senha"required="">
+                    <label>Senha</label>
+                </div>
+                <input type="submit" name="btn_enviar" value="Entrar"> <br>    
+                <br>
+        </form>
+        <a href="criar_conta.html"> <strong>Ainda não é inscrito? Cadastre-se!</strong></a>
+    </div>
+</body>
+</html>
